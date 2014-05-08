@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{This gem parses RSS and Atom feeds into Ruby objects.}
   spec.description   = %q{This gem parses RSS and Atom feeds and provides an uniform ruby-object interface to access data from
                           both feed standards.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/abernardes/feed_duck"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
