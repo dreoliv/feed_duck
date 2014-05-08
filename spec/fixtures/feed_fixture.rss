@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+  <channel>
+    <title>RubyFlow</title>
+    <link>http://www.rubyflow.com/</link>
+    <description>Ruby Links</description>
+    <language>en-us</language>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/Rubyflow" /><feedburner:info uri="rubyflow" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>A Guide to Choosing the Best Gems for Your Ruby Project</title>
+      <description>If you need something done in Ruby, a gem for it probably exists.</description>
+      <pubDate>Tue, 08 Apr 2014 16:40:33 +0200</pubDate>
+      <author>Author</author>
+      <link>http://feedproxy.google.com/~r/Rubyflow/~3/2ynPljVok9U/10851-a-guide-to-choosing-the-best-gems-for-your-ruby-project</link>
+      <guid isPermaLink="false">http://www.rubyflow.com/items/10851-a-guide-to-choosing-the-best-gems-for-your-ruby-project</guid>
+      <feedburner:origLink>http://www.rubyflow.com/items/10851-a-guide-to-choosing-the-best-gems-for-your-ruby-project</feedburner:origLink>
+    </item>
+  </channel>
+</rss>
