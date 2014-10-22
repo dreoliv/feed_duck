@@ -52,7 +52,7 @@ describe FeedDuck::RSSFeed do
           published_at: Time.new(2014, 4, 8, 16, 40, 33, "+02:00"),
           author: "Author",
           url: "http://feedproxy.google.com/~r/Rubyflow/~3/2ynPljVok9U/10851-a-guide-to-choosing-the-best-gems-for-your-ruby-project",
-          id: "http://www.rubyflow.com/items/10851-a-guide-to-choosing-the-best-gems-for-your-ruby-project"
+          uuid: "http://www.rubyflow.com/items/10851-a-guide-to-choosing-the-best-gems-for-your-ruby-project"
         }]
       })
     end
@@ -104,9 +104,9 @@ describe FeedDuck::RSSEntry do
     end
   end
 
-  describe "#id" do
-    it "returns the entry id" do
-      expect(subject.id).to eq "http://www.rubyflow.com/items/10851-a-guide-to-choosing-the-best-gems-for-your-ruby-project"
+  describe "#uuid" do
+    it "returns the entry uuid" do
+      expect(subject.uuid).to eq "http://www.rubyflow.com/items/10851-a-guide-to-choosing-the-best-gems-for-your-ruby-project"
     end
   end
 
@@ -118,7 +118,7 @@ describe FeedDuck::RSSEntry do
         published_at: Time.new(2014, 4, 8, 16, 40, 33, "+02:00"),
         author: "Author",
         url: "http://feedproxy.google.com/~r/Rubyflow/~3/2ynPljVok9U/10851-a-guide-to-choosing-the-best-gems-for-your-ruby-project",
-        id: "http://www.rubyflow.com/items/10851-a-guide-to-choosing-the-best-gems-for-your-ruby-project"
+        uuid: "http://www.rubyflow.com/items/10851-a-guide-to-choosing-the-best-gems-for-your-ruby-project"
       })
     end
   end

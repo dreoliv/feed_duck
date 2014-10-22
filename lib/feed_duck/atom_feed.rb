@@ -66,7 +66,7 @@ module FeedDuck
       parsed_entry.link.href
     end
 
-    def id
+    def uuid
       parsed_entry.id.content
     end
 
@@ -81,7 +81,7 @@ module FeedDuck
     attr_reader :parsed_entry
 
     def public_attributes
-      [:title, :content, :published_at, :author, :url, :id]
+      [:title, :content, :published_at, :author, :url, :uuid]
     end
   end
 end

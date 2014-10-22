@@ -57,7 +57,7 @@ describe FeedDuck::AtomFeed do
           published_at: Time.utc(2003, 12, 13, 18, 30, 02),
           author: "John Doe",
           url: "http://example.org/2003/12/13/atom03",
-          id: "urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a"
+          uuid: "urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a"
         }],
       })
     end
@@ -109,9 +109,9 @@ describe FeedDuck::AtomEntry do
     end
   end
 
-  describe "#id" do
-    it "returns the entry id" do
-      expect(subject.id).to eq "urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a"
+  describe "#uuid" do
+    it "returns the entry uuid" do
+      expect(subject.uuid).to eq "urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a"
     end
   end
 
@@ -123,7 +123,7 @@ describe FeedDuck::AtomEntry do
         published_at: Time.utc(2003, 12, 13, 18, 30, 02),
         author: "John Doe",
         url: "http://example.org/2003/12/13/atom03",
-        id: "urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a",
+        uuid: "urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a",
       })
     end
   end
